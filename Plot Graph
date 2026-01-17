@@ -1,0 +1,10 @@
+-- Create plot graph about number of sales made last year
+import matplotlib.pyplot as plt 
+x = [1, 2, 3, 4, 5, 6, 7, 
+8, 9,10, 11, 12]
+y = [482, 500, 550, 600, 689, 750, 530, 400, 400, 500, 512, 678] 
+plt.title("2025 Sales")
+plt.xlabel("Months")
+plt.ylabel("Number of sales")
+plt.plot(x, y)
+plt.show()
