@@ -1,0 +1,12 @@
+-- Create visualization with dots, with size corresponding to amount of sales.
+import matplotlib.pyplot as plt 
+x = ["Canada", "France", "Germany", "Japan", "Brazil", 
+"Australia", "Italy", "Spain", "South Korea","Mexico"
+]
+y = [482, 917, 306, 754, 689,241, 835, 
+590,128,963]
+plt.title("Last year sales")
+plt.xlabel("Countries")
+plt.ylabel("Number of sales")
+plt.scatter(x, y, s=y)
+plt.show()
